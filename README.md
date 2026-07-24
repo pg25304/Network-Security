@@ -1,52 +1,50 @@
-Network Security Labs
+Network Security Portfolio
 
-This repository contains practical exercises, lab work, and documentation completed for a Network Security course. The labs focus on understanding and applying cybersecurity principles, network scanning, vulnerability assessment, and safe lab practices.
+This repository showcases practical network security projects completed as part of my MSc Cyber Security at the University of Essex. It demonstrates hands-on experience in vulnerability assessment, network reconnaissance, security analysis, and technical reporting using industry-standard cybersecurity tools.
 
-Overview
+The projects focus on applying cybersecurity principles within controlled virtual laboratory environments, enabling the identification, analysis, and mitigation of security vulnerabilities while following safe and ethical testing practices.
 
-The goal of this repository is to demonstrate:
-
-Core network security concepts and techniques
-
-Hands-on experience with vulnerability scanning and assessment
-
-Safe and controlled lab setups for testing network and system security
-
-Analysis, reporting, and mitigation of identified vulnerabilities
-
-The activities are designed to provide a practical understanding of network security, supplementing theoretical coursework.
+Objectives
+Develop practical network security skills.
+Perform vulnerability assessments using industry-standard tools.
+Analyse network services and identify security weaknesses.
+Assess security risks and recommend appropriate mitigations.
+Produce professional technical documentation and security reports.
 
 Lab Environment
 
-Lab exercises are conducted using virtual machines (VMs) to simulate real-world network environments. Typical setups include:
+All practical exercises were conducted within an isolated virtual laboratory to ensure safe and controlled security testing. The environment was designed to simulate real-world enterprise networks while preventing any impact on external systems.
 
-Kali Linux VM: used as the attacker/scanning machine
+Environment
 
-Target VMs: intentionally vulnerable systems such as Metasploitable for testing security tools
+Host Operating System: Windows 11 Pro
+Virtualisation Platform: Oracle VirtualBox
+Attacking Machine: Kali Linux
+Target Machine: Metasploitable 2
+Assessment Tools: Nmap, Nessus Essentials, Wireshark
+Network Configuration: Internal Network with optional NAT for software and plugin updates
 
-Virtual Network Configuration: isolated networks ensure safe testing without affecting external networks
+Purpose
 
-Tools: Nessus, Nmap, Wireshark, and other network security utilities
+The laboratory environment enabled practical experience in:
 
-Network configurations often include:
-
-Internal Network Adapter: for isolated lab communication
-
-NAT Adapter (optional): to provide internet access for tool updates and plugin downloads
+Network reconnaissance
+Port and service enumeration
+Vulnerability assessment
+Security analysis
+Ethical penetration testing within a controlled environment
 
 Key Activities
 
-Vulnerability Scanning: Identifying weaknesses in target systems using automated tools such as Nessus Essentials
-
-Port and Service Analysis: Detecting open ports, running services, and potential misconfigurations
-
-Risk Categorization: Classifying vulnerabilities by severity (Critical, High, Medium, Low, Informational)
-
-Reporting and Documentation: Producing structured reports with recommendations for mitigation
-
-Network Security Concepts: Practical application of firewalls, access controls, encryption, and safe lab practices
+Network Reconnaissance – Identified live hosts, open ports and running services using Nmap.
+Vulnerability Assessment – Performed automated security scans with Nessus Essentials to identify potential vulnerabilities.
+Security Analysis – Evaluated scan results to distinguish genuine security risks from informational findings.
+Risk Assessment – Prioritised vulnerabilities according to severity and potential business impact.
+Technical Reporting – Produced structured security reports including findings, risk ratings and remediation recommendations.
+Virtual Lab Administration – Configured and maintained isolated virtual environments for secure cybersecurity testing.
 
 Repository Structure
+
 Network-Security/
 │
 ├─ Lab Reports/             # Documentation of lab activities and scan results
@@ -57,18 +55,17 @@ Network-Security/
 
 Learning Outcomes
 
-Practical experience with automated vulnerability scanning and network analysis
+Through these practical exercises, I developed experience in:
 
-Understanding vulnerability risk assessment and mitigation strategies
-
-Knowledge of virtualization and lab network configuration for cybersecurity testing
-
-Ability to document and communicate findings professionally
+Conducting network reconnaissance and service enumeration.
+Performing vulnerability assessments using industry-standard security tools.
+Analysing security findings and prioritising risks.
+Recommending practical remediation strategies based on assessment results.
+Building and managing secure virtual laboratory environments.
+Producing clear, professional technical documentation and security reports.
 
 Notes
 
-All activities were conducted in an isolated lab environment to ensure safety and prevent interference with real networks
-
-This repository serves as a learning resource for Network Security concepts and practical exercises
-
-Tools and configurations are chosen to reflect real-world cybersecurity practices
+All practical work was completed in an isolated virtual laboratory environment for educational purposes and to ensure safe, ethical security testing.
+This repository documents my practical learning journey throughout the Network Security module of my MSc Cyber Security programme.
+The projects demonstrate the application of recognised cybersecurity methodologies, industry-standard tools and professional technical reporting.
