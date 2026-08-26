@@ -37,33 +37,35 @@ The laboratory environment enabled practical experience in:
 
 ## Key Activities
 
-Network Reconnaissance – Identified live hosts, open ports and running services using Nmap.
-Vulnerability Assessment – Performed automated security scans with Nessus Essentials to identify potential vulnerabilities.
-Security Analysis – Evaluated scan results to distinguish genuine security risks from informational findings.
-Risk Assessment – Prioritised vulnerabilities according to severity and potential business impact.
-Technical Reporting – Produced structured security reports including findings, risk ratings and remediation recommendations.
-Virtual Lab Administration – Configured and maintained isolated virtual environments for secure cybersecurity testing.
+- **Network Reconnaissance** – Identified live hosts, open ports and running services using Nmap.
+- **Vulnerability Assessment** – Performed automated security scans with Nessus Essentials to identify potential vulnerabilities.
+- **Security Analysis** – Evaluated scan results to distinguish genuine security risks from informational findings.
+- **Risk Assessment** – Prioritised vulnerabilities according to severity and potential business impact.
+- **Technical Reporting** – Produced structured security reports including findings, risk ratings and remediation recommendations.
+- **Virtual Lab Administration** – Configured and maintained isolated virtual environments for secure cybersecurity testing.
 
 ## Repository Structure
 
-Network-Security/
-│
-├─ Lab Reports/             # Documentation of lab activities and scan results
-├─ Configs/                 # Configuration files for tools or virtual lab setups
-├─ Scripts/                 # Scripts used during exercises (e.g., scans or automations)
-├─ README.md                # Overview and course documentation
+    Network-Security/
+    ├── Diagrams/
+    ├── References/
+    ├── Reports/
+    ├── Resources/
+    ├── Screenshots/
+    ├── Tools/
+    └── README.md
 
 
 ## Learning Outcomes
 
 Through these practical exercises, I developed experience in:
 
-Conducting network reconnaissance and service enumeration.
-Performing vulnerability assessments using industry-standard security tools.
-Analysing security findings and prioritising risks.
-Recommending practical remediation strategies based on assessment results.
-Building and managing secure virtual laboratory environments.
-Producing clear, professional technical documentation and security reports.
+- Conducting network reconnaissance and service enumeration.
+- Performing vulnerability assessments using industry-standard security tools.
+- Analysing security findings and prioritising risks.
+- Recommending practical remediation strategies based on assessment results.
+- Building and managing secure virtual laboratory environments.
+- Producing clear, professional technical documentation and security reports.
 
 ## Notes
 
